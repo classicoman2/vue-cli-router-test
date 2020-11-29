@@ -31,5 +31,11 @@ Per afegir al projecte Vue Cli,
 
 ## Servidor: API Rest
 
-A la carpeta `/server/ he instal·lat [aquesta fake REST API local](https://github.com/typicode/json-server).
+A la carpeta `/server/ he instal·lat [aquesta fake REST API local](https://github.com/typicode/json-server). Iniciar amb:
+
+    json-server --watch db.json
+
+## Bootstrap
+
+    npm install bootstrap
 
