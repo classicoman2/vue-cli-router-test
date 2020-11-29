@@ -28,3 +28,6 @@ Instal·lar,
 Per afegir al projecte Vue Cli,
 
     npm add router
+
+A la carpeta `/server/ he instal·lat [aquesta fake REST API local](https://github.com/typicode/json-server).
+

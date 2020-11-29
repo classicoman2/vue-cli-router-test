@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 
 /* Components */
 import GestionaFitxes from "../components/GestionaFitxes.vue";
+import editaFitxa from "../components/EditaFitxa.vue";
 
 Vue.use(VueRouter);
 
@@ -18,6 +19,11 @@ const routes = [
     path: "/gestionaFitxes",
     name: "GestionaFitxes",
     component: GestionaFitxes
+  },
+
+  {
+    path: "/editaFitxa/:id",
+    component: editaFitxa
   },
 
   {
